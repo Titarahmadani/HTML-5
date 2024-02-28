@@ -1,150 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kartu Rencana Studi</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            margin: 20px;
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        
-        th, td {
-            border: 1px solid black;
-            padding: 5px;
-        }
-        
-        th {
-            text-align: center;
-        }
-        
-        .logo {
-            width: 100px;
-            height: 100px;
-        }
-        
-        .header {
-            text-align: center;
-            font-size: 16px;
-            font-weight: bold;
-        }
-        
-        .subheader {
-            text-align: center;
-            font-size: 14px;
-            font-weight: normal;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td, th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    th {
+      text-align: left;
+    }
+
+    .foto {
+      width: 100px;
+      height: 100px;
+    }
+  </style>
 </head>
 <body>
-    <table cellpadding="0" cellspacing="0">
-        <tr>
-            <td width="20%">
-                <img src="logo.png" class="logo">
-            </td>
-            <td width="80%">
-                <h1 class="header">KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI</h1>
-                <h2 class="header">POLITEKNIK NEGERI MADIUN</h2>
-                <h3 class="subheader">Jalan Serayu 84 Madiun Kode Pos 63133</h3>
-                <h3 class="subheader">Telepon +62 351452970 Faksimile +62 36148290</h3>
-                <h3 class="subheader">Laman www.polinema.ac.id Surel wretaria@polinema.ac.id</h3>
-            </td>
-        </tr>
-    </table>
-    
-    <br>
-    
-    <h2>Kartu Rencana Studi (KRS)</h2>
-    
-    <br>
-    
-    <table>
-        <tr>
-            <td width="20%">Nama Mahasiswa</td>
-            <td width="80%">: [Nama Anda]</td>
-        </tr>
-        <tr>
-            <td>NIM</td>
-            <td>: [NIM Anda]</td>
-        </tr>
-        <tr>
-            <td>Jurusan</td>
-            <td>: [Jurusan Anda]</td>
-        </tr>
-        <tr>
-            <td>Program Studi</td>
-            <td>: [Program Studi Anda]</td>
-        </tr>
-    </table>
-    
-    <br>
-    
-    <h3>Mata Kuliah yang Ditempuh</h3>
-    
-    <br>
-    
-    <table>
-        <tr>
-            <th>No</th>
-            <th>Kode MK</th>
-            <th>Mata Kuliah</th>
-            <th>SKS</th>
-            <th>Kelas</th>
-            <th>Dosen Pengampu</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>MKU2201</td>
-            <td>Agama Islam</td>
-            <td>2</td>
-            <td>28</td>
-            <td>O Namayati S.Ag. MP</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>T122200</td>
-            <td>Pemograman Mobile 1</td>
-            <td>2</td>
-            <td>28</td>
-            <td>Sigit Karnagi Bimmonugraha, S. Kom, M.T.</td>
-        </tr>
-        </table>
-    
-    <br>
-    
-    <table>
-        <tr>
-            <td width="70%"></td>
-            <td width="30%">Jumlah</td>
-            <td>: [Jumlah SKS]</td>
-        </tr>
-    </table>
-    
-    <br>
-    
-    <table style="width: 50%;">
-        <tr>
-            <td>
-                Mahasiswa
-            </td>
-            <td>
-                Dosen Pembina Akademik
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <br>
-                <br>
-                [Nama Anda]
-            </td>
-            <td>
-                <br>
-                <br>
-                
+  <h1>Biodata</h1>
+  <table>
+    <tr>
+      <th>NIM</th>
+      <td>:</td>
+      <td><input type="text" name="nim"></td>
+    </tr>
+    <tr>
+      <th>Nama</th>
+      <td>:</td>
+      <td><input type="text" name="nama"></td>
+    </tr>
+    <tr>
+      <th>Foto</th>
+      <td>:</td>
+      <td><input type="file" name="foto"></td>
+    </tr>
+    <tr>
+      <th>Alamat</th>
+      <td>:</td>
+      <td><input type="text" name="alamat"></td>
+    </tr>
+    <tr>
+      <th>TTL</th>
+      <td>:</td>
+      <td><input type="text" name="ttl"></td>
+    </tr>
+    <tr>
+      <th>Kelas</th>
+      <td>:</td>
+      <td><input type="text" name="kelas"></td>
+    </tr>
+  </table>
+</body>
+</html>
